@@ -12,3 +12,4 @@ function IMC (peso , altura){
 IMC(peso , altura)
 
 
+
