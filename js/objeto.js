@@ -4,17 +4,17 @@ var cuenta={
     saldo: 0,
 
     ingresar: function(cantidad){
-        console.log("Has ingresado" + cantidad + "pesos");
+        console.log(" Has ingresado " +  cantidad  + " pesos ");
         return this.saldo += cantidad;
     },
 
     extraer: function(cantidad){
-        console.log("Has extraido" + cantidad + "pesos");
+        console.log(" Has extraido " +  cantidad  + " pesos ");
         return this.saldo -= cantidad;
     },
 
     informar: function(){
-        return "Nombre del titular: " + this.titular + "El saldo actual de la cuenta es: " +  this.saldo + "pesos";
+        return " Nombre del titular:  " + this.titular + " El saldo actual de la cuenta es: " +  this.saldo + " pesos ";
     }
 }
 
